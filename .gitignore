@@ -1,0 +1,10 @@
+# CMake build files
+cmake-build-*/
+
+# IDE settings
+.idea/
+
+# Executables
+*.exe
+*.out
+*.app
