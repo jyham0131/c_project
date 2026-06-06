@@ -62,6 +62,7 @@ int main(int argc, char *argv[]) {
     HANDLE hThread;
 
     printf("이건 브랜치 작업이에요");
+    printf("이건 브랜치2 작업이에요");
     if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0)
         ErrorHandling("WSAStartup() error!");
 
